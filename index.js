@@ -18,3 +18,5 @@ const miguel = new Student({
 	courses: ['HTML', 'CSS', 'JavaScript'],
 	email: 'miguel@me.com',
 });
+
+console.log(miguel);
