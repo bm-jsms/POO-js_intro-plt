@@ -1,8 +1,9 @@
 class Student {
 	// Params
-	constructor(name, age, courses) {
+	constructor({ name, age, email, courses = [] }) {
 		this.name = name;
 		this.age = age;
+		this.email = email;
 		this.courses = courses;
 	}
 
@@ -11,4 +12,9 @@ class Student {
 	}
 }
 
-const miguel = new Student('Miguel', 20, ['Java', 'Kotlin', 'SQL']);
+const miguel = new Student({
+	name: 'Miguel',
+	age: 20,
+	courses: ['HTML', 'CSS', 'JavaScript'],
+	email: 'miguel@me.com',
+});
