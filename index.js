@@ -10,3 +10,11 @@ class Student {
 		this.courses.push(newCourse);
 	}
 }
+
+const miguel = new Student('Miguel', 20, ['Java', 'Kotlin', 'SQL']);
+
+console.log(miguel.courses);
+
+miguel.passCourse('Python');
+
+console.log(miguel.courses);
