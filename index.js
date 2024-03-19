@@ -17,3 +17,7 @@ function Student(name, age, courses) {
 		this.courses.push(newCourse);
 	}; */
 }
+
+Student.prototype.passCourse = function (newCourse) {
+	this.courses.push(newCourse);
+};
