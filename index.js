@@ -7,3 +7,13 @@ const daniel = {
 		this.courses.push(newCourse);
 	},
 };
+
+function Student(name, age, courses) {
+	this.name = name;
+	this.age = age;
+	this.courses = courses;
+
+	/* this.passCourse = function (newCourse) {
+		this.courses.push(newCourse);
+	}; */
+}
