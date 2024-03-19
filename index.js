@@ -23,13 +23,3 @@ Student.prototype.passCourse = function (newCourse) {
 };
 
 const maria = new Student('Maria', 20, ['Java', 'Python', 'C++']);
-
-console.log(maria.name);
-console.log(maria.age);
-console.log(maria.courses);
-
-console.log(maria);
-
-maria.passCourse('C#');
-
-console.log(maria.courses);
