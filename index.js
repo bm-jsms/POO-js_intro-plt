@@ -21,3 +21,5 @@ function Student(name, age, courses) {
 Student.prototype.passCourse = function (newCourse) {
 	this.courses.push(newCourse);
 };
+
+const maria = new Student('Maria', 20, ['Java', 'Python', 'C++']);
