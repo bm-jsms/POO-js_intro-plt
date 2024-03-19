@@ -7,10 +7,3 @@ const daniel = {
 		this.courses.push(newCourse);
 	},
 };
-
-console.log(daniel.name);
-console.log(daniel.courses);
-
-daniel.passCourse('Python');
-
-console.log(daniel.courses);
