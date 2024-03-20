@@ -7,6 +7,12 @@ class Studemt {
 	get email() {
 		return this._email;
 	}
+
+	set email(newEmail) {
+		if (typeof newEmail === 'string') {
+			this._email = newEmail;
+		}
+	}
 }
 
 const santi = new Studemt({
@@ -14,5 +20,8 @@ const santi = new Studemt({
 	age: 20,
 	email: 'santi@me.com',
 });
+
+console.log(santi.email);
+santi.email = 'santi@me.com';
 
 console.log(santi.email);
