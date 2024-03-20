@@ -1,4 +1,4 @@
-class Studemt {
+class Student {
 	constructor({ name, age, email }) {
 		this.name = name;
 		this.age = age;
@@ -15,7 +15,7 @@ class Studemt {
 	}
 }
 
-const santi = new Studemt({
+const santi = new Student({
 	name: 'Santi',
 	age: 20,
 	email: 'santi@me.com',
